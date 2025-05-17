@@ -2,12 +2,13 @@
     width: 100%;
     background: linear-gradient(90deg, #f8fafc 0%, #e9e4f0 100%);
     border-radius: 0.8rem;
-    padding: 1.2rem 1.5rem;
+    padding: 0.7rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     box-shadow: 0 2px 12px rgba(102,126,234,0.08);
     transition: box-shadow 0.2s;
+    min-height: 80px;
 }
 
 .containerCard:hover {
@@ -15,16 +16,16 @@
 }
 
 .containerCard h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #4f4f4f;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
 .containerCard p {
     color: #6b7280;
-    margin: 0.2rem 0;
-    font-size: 1rem;
+    margin: 0.15rem 0;
+    font-size: 0.97rem;
 }
 
 .containerCard b {
@@ -35,16 +36,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 0.7rem;
+    gap: 0.5rem;
 }
 
 .actionCard button {
     background: #667eea;
     color: #fff;
     border: none;
-    padding: 0.5rem 1.1rem;
+    padding: 0.4rem 0.9rem;
     border-radius: 0.4rem;
-    font-size: 1rem;
+    font-size: 0.97rem;
     font-weight: 500;
     transition: background 0.2s, transform 0.2s;
     box-shadow: 0 1px 4px rgba(102,126,234,0.10);

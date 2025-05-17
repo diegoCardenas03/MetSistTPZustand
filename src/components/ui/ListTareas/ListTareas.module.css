@@ -1,10 +1,10 @@
 .containerPrincipalListTareas {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 2rem;
+    align-items: flex-start;
+    padding: 1rem;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.2rem;
     background: #f6f8fa;
     min-height: 92vh;
 }
@@ -14,7 +14,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    width: 70%;
+    width: 420px;
+    margin: 0 auto;
 }
 
 .containerTitleAndButton h2 {
@@ -45,13 +46,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.2rem;
-    padding: 1.5rem;
+    gap: 0.8rem;
+    padding: 1rem;
     background-color: #fff;
-    width: 70%;
-    min-height: 60vh;
-    max-height: 62vh;
+    width: 420px;
+    min-height: 40vh;
+    max-height: 55vh;
     overflow-y: auto;
     border-radius: 1rem;
     box-shadow: 0 4px 24px rgba(102,126,234,0.10);
+    margin: 0 auto;
 }
