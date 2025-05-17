@@ -1,0 +1,57 @@
+.containerCard {
+    width: 100%;
+    background: linear-gradient(90deg, #f8fafc 0%, #e9e4f0 100%);
+    border-radius: 0.8rem;
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: 0 2px 12px rgba(102,126,234,0.08);
+    transition: box-shadow 0.2s;
+}
+
+.containerCard:hover {
+    box-shadow: 0 6px 24px rgba(102,126,234,0.18);
+}
+
+.containerCard h3 {
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    margin-bottom: 0.5rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.containerCard p {
+    color: #6b7280;
+    margin: 0.2rem 0;
+    font-size: 1rem;
+}
+
+.containerCard b {
+    color: #764ba2;
+}
+
+.actionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.actionCard button {
+    background: #667eea;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.1rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 1px 4px rgba(102,126,234,0.10);
+}
+
+.actionCard button:hover {
+    background: #764ba2;
+    transform: translateY(-2px) scale(1.04);
+    cursor: pointer;
+}

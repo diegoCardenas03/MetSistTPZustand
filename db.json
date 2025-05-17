@@ -1,0 +1,28 @@
+{
+  "tareas": [
+    {
+      "id": "132",
+      "titulo": "awdwa",
+      "descripcion": "awdawd",
+      "fechaLimite": "2025-05-22"
+    },
+    {
+      "id": "1324",
+      "titulo": "titulo2",
+      "descripcion": "Descripcion2",
+      "fechaLimite": "2222"
+    },
+    {
+      "id": "13245",
+      "titulo": "titulo3",
+      "descripcion": "Descripcion2",
+      "fechaLimite": "2222"
+    },
+    {
+      "titulo": "wadwad222",
+      "descripcion": "awdawdawd",
+      "fechaLimite": "2025-05-16",
+      "id": "Sat May 17 2025"
+    }
+  ]
+}

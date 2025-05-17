@@ -1,0 +1,57 @@
+.containerPrincipalListTareas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    background: #f6f8fa;
+    min-height: 92vh;
+}
+
+.containerTitleAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 70%;
+}
+
+.containerTitleAndButton h2 {
+    font-size: 2rem;
+    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.containerTitleAndButton button {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(102,126,234,0.08);
+}
+
+.containerTitleAndButton button:hover {
+    background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+    transform: translateY(-2px) scale(1.04);
+    cursor: pointer;
+}
+
+.containerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    width: 70%;
+    min-height: 60vh;
+    max-height: 62vh;
+    overflow-y: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(102,126,234,0.10);
+}

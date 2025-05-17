@@ -1,0 +1,90 @@
+.containerPrincipalModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: brightness(90%) blur(2px);
+    background: rgba(102,126,234,0.10);
+    z-index: 1000;
+}
+
+.contentPopUP {
+    background-color: #fff;
+    box-shadow: 0 8px 32px rgba(102,126,234,0.18);
+    min-width: 350px;
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    max-height: 90vh;
+}
+
+.contentPopUP h3 {
+    font-size: 1.5rem;
+    color: #764ba2;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.formContent input,
+.formContent textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8fafc;
+    transition: border 0.2s;
+    margin: 0.2rem 0;
+    resize: none;
+}
+
+.formContent input:focus,
+.formContent textarea:focus {
+    border: 1.5px solid #764ba2;
+    outline: none;
+    background: #fff;
+}
+
+.buttonCard {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.buttonCard button {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(102,126,234,0.08);
+}
+
+.buttonCard button:hover {
+    background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+    transform: translateY(-2px) scale(1.04);
+    cursor: pointer;
+}
